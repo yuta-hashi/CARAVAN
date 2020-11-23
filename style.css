@@ -25,11 +25,17 @@
   background-color: #ffc0cb; /*背景色＝ピンク*/
 }
 
-
+/* main-visual */
 .main-visual {
   width: 100%; /*横幅いっぱい*/
   height: 300px; /*高さ300px*/
   background-color: #ffa500; /*背景色＝オレンジ*/
+}
+
+.main-visual-content {
+  width: 350px; /*横幅350px*/
+  height: inherit; /*高さは親要素を継承*/
+  background-color: #ffd700; /*背景色＝ゴールド*/
 }
 
 .main {
