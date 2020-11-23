@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 /* header */
 .header {
   width: 100%; /*横幅いっぱい*/
@@ -25,6 +26,7 @@
   background-color: #ffc0cb; /*背景色＝ピンク*/
 }
 
+
 /* main-visual */
 .main-visual {
   width: 100%; /*横幅いっぱい*/
@@ -37,6 +39,7 @@
   height: inherit; /*高さは親要素を継承*/
   background-color: #ffd700; /*背景色＝ゴールド*/
 }
+
 
 /* main */
 .main {
