@@ -17,3 +17,9 @@
   height: 300px; /*高さ300px*/
   background-color: #ffa500; /*背景色＝オレンジ*/
 }
+
+.main {
+  width: 100%; /*横幅いっぱい*/
+  height: 1400px; /*高さ1400px*/
+  background-color: #008000; /*背景色＝グリーン*/
+}
