@@ -4,47 +4,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
 }
 
+a {
+  text-decoration: none;
+}
 
 /* header */
 header {
+<<<<<<< HEAD
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
   background-color: #ff0000; /*背景色＝赤*/
+=======
+  width: 90%; /*横幅90%*/
+  padding: 12px 0;
+  margin: 0 auto; 
+  text-align: center;
+>>>>>>> origin/chapter5
 }
 
-.header-top {
-  width: 100%; /*横幅いっぱい*/
-  height: 70px; /*高さ70px*/
-  background-color: #ff69b4; /*背景色＝ホットピンク*/
+header .heading {
+  font-size: 32px;
 }
 
-.header-bottom {
-  width: 100%; /*横幅いっぱい*/
-  height: 50px; /*高さ50px*/
-  background-color: #ffc0cb; /*背景色＝ピンク*/
+/* navigation */
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
 }
 
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
 
 /* main-visual */
 .main-visual {
   width: 100%; /*横幅いっぱい*/
   height: 300px; /*高さ300px*/
-  background-color: #ffa500; /*背景色＝オレンジ*/
 }
 
 .main-visual-content {
   width: 350px; /*横幅350px*/
   height: inherit; /*高さは親要素を継承*/
-  background-color: #ffd700; /*背景色＝ゴールド*/
 }
-
 
 /* main */
 .main {
   width: 840px; /*横幅840px*/
-  background-color: #008000; /*背景色＝グリーン*/
   display: flex; /*Flexboxの利用*/
   justify-content: center; /*子要素の横並び・中央寄せ*/
   margin: 0 auto; /*中央寄せ*/
@@ -53,18 +64,22 @@ header {
 .blog {
   width: 600px; /*横幅600px*/
   height: 1400px; /*高さ1400px*/
-  background-color: #32cd32; /*背景色＝ライムグリーン*/
 }
 
 .sidebar {
   width: 240px; /*横幅240px*/
   height: 1400px; /*高さ1400px*/
-  background-color: #98fb98; /*背景色＝ペイルグリーン*/
 }
 
 /* footer */
 footer {
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
-  background-color: #0000ff; /*背景色＝ブルー*/
+  text-align: center;
+  background-color: #848482; /*背景色＝グレー*/
+}
+
+.footer-text {
+  line-height: 120px;
+  color: #fff; /*文字色＝白*/
 }
