@@ -47,7 +47,6 @@ header .heading {
   height: inherit; /*高さは親要素を継承*/
 }
 
-
 /* main */
 .main {
   width: 840px; /*横幅840px*/
