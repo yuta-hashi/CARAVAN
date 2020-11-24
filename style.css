@@ -66,4 +66,11 @@ header .heading {
 footer {
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
+  text-align: center;
+  background-color: #848482; /*背景色＝グレー*/
+}
+
+.footer-text {
+  line-height: 120px;
+  color: #fff; /*文字色＝白*/
 }
