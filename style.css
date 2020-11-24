@@ -8,7 +8,7 @@
 
 
 /* header */
-.header {
+header {
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
   background-color: #ff0000; /*背景色＝赤*/
@@ -63,7 +63,7 @@
 }
 
 /* footer */
-.footer {
+footer {
   width: 100%; /*横幅いっぱい*/
   height: 120px; /*高さ120px*/
   background-color: #0000ff; /*背景色＝ブルー*/
