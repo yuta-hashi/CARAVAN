@@ -46,9 +46,11 @@ header .heading {
 }
 
 .main-visual-content {
-  width: 350px; /*横幅350px*/
+  width: 40%; /*横幅40%で固定*/
   height: inherit; /*高さは親要素を継承*/
+  background-color: rgba(0, 0, 0, 0.5); /*背景色を半透明の黒にする*/
 }
+
 
 /* main */
 .main {
