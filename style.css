@@ -40,6 +40,9 @@ header .heading {
 .main-visual {
   width: 100%; /*横幅いっぱい*/
   height: 300px; /*高さ300px*/
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-content {
