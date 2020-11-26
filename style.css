@@ -71,13 +71,11 @@ header .heading {
 }
 
 .blog {
-  width: 600px; /*横幅600px*/
-  height: 1400px; /*高さ1400px*/
+  
 }
 
 .sidebar {
-  width: 240px; /*横幅240px*/
-  height: 1400px; /*高さ1400px*/
+ 
 }
 
 /* footer */
